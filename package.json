@@ -1,0 +1,19 @@
+{
+  "name": "git-auto-updater",
+  "version": "0.0.1",
+  "description": "Keeps a git repository up-to-date",
+  "license": "GPL-3.0",
+  "author": {
+    "name": "Chris Lord",
+    "email": "contact@chrislord.net",
+    "url": "http://chrislord.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/Cwiiis/git-auto-updater.git"
+  },
+  "bin": {
+    "forever-with-updates": "./bin/git-auto-updater"
+  },
+  "main": "./lib/git-auto-updater"
+}
